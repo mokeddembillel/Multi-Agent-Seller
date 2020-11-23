@@ -1,0 +1,3 @@
+cheese,preparationMethod,texture,flavor,milkSource
+honey,flowerSource,taste,color,period
+oliveOil,type,oliveSource,flavor,color

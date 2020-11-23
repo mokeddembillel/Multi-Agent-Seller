@@ -1,0 +1,7 @@
+texture,soft,hard
+flavor,mild,lactic,nutty,sweet,salty
+milkSource,cow,goat,sheep,buffalo
+country,italy,united-kingdom,netherlands,switzerland,greek,french,america
+cheese,mozzarella,ricotta,cheddar,gorgonzola,gouda,emmental,feta,roquefort,monterey-jack,parmesan
+price,$3/kg,$4.3/kg,$8/kg,$7.3/kg,$10/kg,$2/kg,$9/kg,$6.8/kg,$6.5/kg,$3.6/kg
+preparationMethod,unripened,mold-ripened,bacteria-ripened,unripended

@@ -1,0 +1,7 @@
+type,extraVirgin,virgin,Regular
+oliveSource,Arbequina,Verdiell,Manaki,beruguette,salonenque,grossane,variety,ogliarola,minucciola,Galega,Blanqueta,Cobrançosa
+flavor,piquant,delicate,artichokes,strongAromatic,fruity,sweet
+color,brightGreen,yellowishGreen,green,strawYellow,goldenYellow
+country,italy,,greek,french,spain,portugal
+oliveOil,Garrigues,ExeretikoParthenoEleoladoTrizinia,laValléeDesBaux,PenisolaSorrentina,AzeitesDoNorteAlentejano
+price,$40.33/l,$73.99/l,$29.99/l,$57.3/l,$20/l

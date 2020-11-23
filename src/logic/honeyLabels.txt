@@ -1,0 +1,7 @@
+flowerSource,sainfoin,sidrTrees,RobiniaPseudoacacia,basswoodBlossoms,blueberryFlowers,chestnutTreeFlowers,manukaTree,rainforests,rosemary,sage,buckwheatFlowers
+taste,butterySweet,milder,sweetDelicate,strongBiting,blueberriesTaste,spicy,quiteTart,widely,strongSweet,Sweet,strong
+color,goldenLight,yellower,lighter,whitish,lightAmber,dark,mediumAmber,lightYellow,white,veryDark
+country,yemen,french,america,canada,italy,newZealand’s,brazil,anywhere
+honey,whiteHoney,sidrHoney,acaciaHoney,basswoodHoney,blueberryHoney,chestnutHoney,manukaHoney,rainforestHoney,rosemaryHoney,sageHoney,buckwheatHoney
+price,$4.8,$15.76,$16.91,$18,$14.99,$14.95,$17.86,$39.94,$13.99,$23.96,$14.99
+period,anytime,spring,winter,summer,autumn,anytome

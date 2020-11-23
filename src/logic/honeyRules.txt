@@ -1,0 +1,16 @@
+6afd4d6a-75ce-4165-ab5a-334bbcd7103c,4,flowerSource,=,sainfoin,taste,=,butterySweet,color,=,goldenLight,period,=,anytime,country,=,yemen
+01451ce3-cc26-4658-bdf2-2037aabf9c5d,4,flowerSource,=,sidrTrees,taste,=,milder,color,=,yellower,period,=,anytime,country,=,yemen
+8f0c193e-f512-4193-9f93-9bbea8bb1071,2,country,=,yemen,taste,=,milder,honey,=,sidrHoney
+72fb213c-800d-4555-9431-a2307e79756d,1,honey,=,sidrHoney,price,=,$18
+10b53cf7-e600-40ee-aaf5-55c3cd4a35bb,4,flowerSource,=,basswoodBlossoms,taste,=,strongBiting,color,=,whitish,period,=,spring,country,=,america
+d1c75a18-8d2e-422b-8f6f-a92ffe97ac41,2,country,=,america,taste,=,strongBiting,honey,=,basswoodHoney
+506ba030-ff1b-48f9-aa63-5a95025069c2,4,flowerSource,=,RobiniaPseudoacacia,taste,=,Sweet,color,=,lightAmber,period,=,anytime,country,=,america
+c30c6dea-6aa0-4a14-8843-6dd5f050ac27,2,country,=,america,taste,=,Sweet,honey,=,acaciaHoney
+f4b62c86-dfb0-4e9f-8b00-cbd5574e9364,4,flowerSource,=,manukaTree,taste,=,quiteTart,color,=,mediumAmber,period,=,winter,country,=,newZealand’s
+c5b999c3-c50c-4e89-a98a-6af7735ad905,2,country,=,newZealand’s,taste,=,quiteTart,honey,=,manukaHoney
+eb7456da-f1bd-4250-8d98-987e9ef1b9f3,2,country,=,yemen,taste,=,butterySweet,honey,=,whiteHoney
+fda503d8-9bc4-4f86-8920-95cdacb0e577,1,honey,=,whiteHoney,price,=,$39.94
+3ef8f6ba-fd52-40d1-bc16-b00e09faa832,1,honey,=,basswoodHoney,price,=,$18
+a103535e-cfa2-4733-926e-02779452adb8,1,honey,=,acaciaHoney,price,=,$23.96
+0da0758c-3746-4719-89d6-ed8236fca586,1,honey,=,manukaHoney,price,=,$39.94
+36c63c29-a923-45f2-9210-ea02fd16de4a,2,country,=,yemen,color,=,goldenLight,taste,=,butterySweet
