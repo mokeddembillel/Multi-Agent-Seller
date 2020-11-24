@@ -1,0 +1,101 @@
+.parent {
+	-fx-background-color: #ffff;
+	-fx-background-radius: 10 15 10 15;
+}
+
+.side-bar {
+	-fx-background-color: #333645;
+	-fx-background-radius: 10 0 0 10;
+}
+
+.top-bar {
+	-fx-background-color: #333645;
+	-fx-background-radius: 0 10 0 0;
+}
+
+.title {
+	-fx-background-radius: 10 0 0 0;
+}
+
+.btn {
+	-fx-border-color: transparent;
+	-fx-border-width: 0;
+	-fx-background-radius: 0;
+	-fx-background-color: #333645;
+	-fx-font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+	-fx-font-size: 1.2em; /* 12 */
+	-fx-text-fill: #ffff;
+	-fx-effect: null;
+}
+
+.btn-2 {
+	-fx-border-color: transparent;
+	-fx-border-width: 0;
+	-fx-background-radius: 6;
+	-fx-background-color: #333645;
+	-fx-font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+	-fx-font-size: 1.2em; /* 12 */
+	-fx-text-fill: #ffff;
+	-fx-effect: null;
+
+}
+
+.btn:hover {
+    -fx-background-color:  #008ECC;
+}
+
+.btn-2:hover {
+    -fx-background-color:  #008ECC;
+}
+
+.input-field {
+	-fx-border-color: transparent;
+	-fx-border-width: 0;
+	-fx-background-radius: 6;
+	-fx-background-color: #333645;
+	-fx-font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+	-fx-font-size: 1.2em; /* 12 */
+	-fx-text-fill: #ffff;
+	-fx-effect: null;
+}
+
+.label-1 {
+	-fx-text-fill: #333645;
+	-fx-font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+	-fx-font-size: 1.2em; /* 12 */
+	-fx-effect: null;
+}
+
+.label-2 {
+	-fx-text-fill: #333645;
+	-fx-font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+	-fx-font-size: 1.3em; /* 12 */
+	-fx-effect: null;
+}
+
+.combo-box {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 6;
+    -fx-background-color: #333645;
+    -fx-font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    -fx-font-size: 1.2em; /* 12 */
+    -fx-text-fill: #ffff;
+    -fx-effect: null;
+}
+
+.combo-box:hover {
+    -fx-background-color:  #008ECC;
+}
+
+.combo-box:disabled {
+    -fx-text-fill:  #333645;
+}
+
+.combo-box > .list-cell {
+    -fx-text-fill: white;
+}
+
+.combo-box > .arrow-button > .arrow {
+    -fx-background-color: #ffff;
+}

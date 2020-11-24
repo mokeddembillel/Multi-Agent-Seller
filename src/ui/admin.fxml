@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="TOP_CENTER" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.AdminController">
+   <children>
+      <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="724.0" prefWidth="900.0" HBox.hgrow="ALWAYS">
+         <children>
+            <Label fx:id="errorMessage" alignment="CENTER" prefHeight="41.0" prefWidth="900.0" textFill="RED" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="65.0" prefWidth="900.0">
+               <children>
+                  <ComboBox fx:id="category" onAction="#categoryChange" prefHeight="50.0" prefWidth="158.0" promptText="Select Category" stylesheets="@style.css">
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                  </ComboBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="65.0" prefWidth="900.0">
+               <children>
+                  <ComboBox fx:id="clauseType" prefHeight="50.0" prefWidth="158.0" promptText="Clause type" stylesheets="@style.css">
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                  </ComboBox>
+                  <ComboBox fx:id="variable" onAction="#variableChange" prefHeight="50.0" prefWidth="158.0" promptText="Variable" stylesheets="@style.css">
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                  </ComboBox>
+                  <ComboBox fx:id="condition" prefHeight="50.0" prefWidth="158.0" promptText="Condition" stylesheets="@style.css">
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                  </ComboBox>
+                  <TextField fx:id="value" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="158.0" promptText="Value" styleClass="input-field" stylesheets="@style.css" />
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="65.0" prefWidth="900.0">
+               <children>
+                  <Button fx:id="addClause" mnemonicParsing="false" onMouseClicked="#addClausef" prefHeight="50.0" prefWidth="158.0" styleClass="btn-2" stylesheets="@style.css" text="Add Clause">
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="addRule" mnemonicParsing="false" onMouseClicked="#addRulef" prefHeight="50.0" prefWidth="158.0" styleClass="btn-2" stylesheets="@style.css" text="Add Rule" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="15.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="308.0" prefWidth="900.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <TableView fx:id="clausestable" prefHeight="160.0" prefWidth="450.0" HBox.hgrow="ALWAYS">
+                    <columns>
+                      <TableColumn fx:id="variableTable" prefWidth="112.5" text="Variable" />
+                      <TableColumn fx:id="conditionTable" prefWidth="112.5" text="Condition" />
+                        <TableColumn fx:id="valueTable" prefWidth="112.5" text="Value" />
+                        <TableColumn fx:id="consequentTable" prefWidth="110.0" text="Consequent" />
+                    </columns>
+                  </TableView>
+                  <TableView fx:id="rulestable" prefHeight="275.0" prefWidth="450.0" HBox.hgrow="ALWAYS">
+                     <columns>
+                        <TableColumn fx:id="ruleNameColumn" prefWidth="100.0" text="Rule Name" />
+                        <TableColumn fx:id="numberOfAntecedentsColumn" prefWidth="100.0" text="antNbr" />
+                        <TableColumn fx:id="consequentColumn" prefWidth="230.0" text="Consequent" />
+                     </columns>
+                  </TableView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="80.0" prefWidth="900.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="65.0" prefWidth="450.0">
+                     <children>
+                        <Button fx:id="deleteClause" mnemonicParsing="false" onMouseClicked="#deleteClausef" prefHeight="50.0" prefWidth="158.0" styleClass="btn-2" stylesheets="@style.css" text="Delete Clause" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="65.0" prefWidth="450.0">
+                     <children>
+                        <Button fx:id="DeleteRule" mnemonicParsing="false" onMouseClicked="#deleteRulef" prefHeight="50.0" prefWidth="158.0" styleClass="btn-2" stylesheets="@style.css" text="Delete Rule" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="40.0" top="40.0" />
+         </padding>
+      </VBox>
+   </children>
+</HBox>
